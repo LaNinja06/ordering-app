@@ -1,0 +1,173 @@
+body {
+    max-width: 550px;
+    font-family: 'Smythe', cursive; 
+    font-weight: 400;
+    margin: 0 auto;
+    
+} 
+
+header {
+    background: url('burger.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 65%;
+    padding: 45px 0 45px 50px; 
+    color: whitesmoke;
+}
+
+header h1 {
+    margin-bottom: 0px;
+}
+
+header p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* menu section */
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.emoji {
+    font-size: 70px;
+}
+
+.add-button{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: 100px;
+    padding: 10px;
+    cursor: pointer;    
+    border-radius: 70%;
+    border: none;
+    width: 45px;
+}
+
+.border {
+    border: solid whitesmoke 2px;
+}
+
+/* ORDER AREA */
+
+.order-area h2 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+    color: #000000;
+    text-align: center;
+}
+
+.order-name, .order-price {
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 10px
+}
+
+.remove-btn {
+    border: none;
+    background-color: transparent;
+    color:  #8B8B8B;
+    cursor: pointer;
+    text-align: right;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.border-total {
+    border: 1px solid black;
+}
+
+.total-price {
+   display: flex;
+}
+
+.sum {
+   padding-left: 450px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* confirmation area */
+
+.confirm-btn, .pay-btn, .cancel-btn {
+    background: lightgreen;
+    border: none;
+    width: 90%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 auto 10px auto;
+}
+
+.pay-btn, .cancel-btn {
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 40px;
+}
+
+.cancel-btn {
+    background-color: red;
+}
+
+.confirm-btn {
+    display: block;
+}
+
+.payment-modal {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    background-color: white;
+    
+    /* border */
+    width: 400px;
+    height: 370px;
+    padding: 20px;
+    
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px #666;
+    
+    /* text */
+    text-align: center;
+    font-size: 95%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#name, #ccv, #card {
+    height: 45px;
+    width: 350px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thanks-area {
+    
+    padding: 3px 0 4px 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    height: 100px;  
+    margin: 35px 0 40px 0;
+    background: #ECFDF5;
+
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    color: #065F46;   
+}
